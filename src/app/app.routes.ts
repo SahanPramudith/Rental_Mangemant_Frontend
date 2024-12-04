@@ -1,9 +1,11 @@
 import { Routes } from '@angular/router';
-import { AddCustomerComponent } from './pages/add-customer/add-customer.component';
+import { ViewCustomerComponent } from './pages/view-customer/view-customer.component';
+import { CustomerComponent } from './pages/customer/customer.component';
 
 export const routes: Routes = [
     {
         path:"customer",
-        component:AddCustomerComponent
-    }
+        component:CustomerComponent
+    },
+    
 ];
